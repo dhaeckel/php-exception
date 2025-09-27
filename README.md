@@ -27,12 +27,13 @@ to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-- Source Code: github.com/$project/$project
+[Source Code](https://github.com/dhaeckel/php-exception)
 
 ## Support
 
 Let us know if you have issues.
-- Issue Tracker: github.com/$project/$project/issues
+
+[Issue Tracker](https://github.com/dhaeckel/php-exception/issues)
 
 ## License
 
