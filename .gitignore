@@ -1,0 +1,4 @@
+/vendor/
+.cache
+doc/phpunit*
+cov.xml
