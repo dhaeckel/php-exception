@@ -17,7 +17,7 @@ Haeckel/php-exception is a php library that provides utilities and extensions fo
 Install the package vai composer by running:
 
 ```sh
-$ composer require haeckel/exception
+composer require haeckel/exception
 ```
 
 ## Contribute
