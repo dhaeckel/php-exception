@@ -1,6 +1,6 @@
 # Haeckel/php-exception
 
-Haeckel/php-exception is php library that provides utilities and extensions for exceptions.
+Haeckel/php-exception is a php library that provides utilities and extensions for exceptions.
 
 ## Features
 

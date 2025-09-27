@@ -1,6 +1,6 @@
 {
     "name": "haeckel/exception",
-    "description": "Supporting classes for exceptions and extra features",
+    "description": "library that provides utilities and extensions for exceptions.",
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "^12.3",
