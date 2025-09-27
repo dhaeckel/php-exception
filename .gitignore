@@ -2,3 +2,4 @@
 .cache
 doc/phpunit*
 cov.xml
+.vscode
