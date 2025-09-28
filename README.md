@@ -1,4 +1,11 @@
 [![codecov](https://codecov.io/github/dhaeckel/php-exception/graph/badge.svg?token=3M3E6N9YDW)](https://codecov.io/github/dhaeckel/php-exception)
+[![ci](https://github.com/dhaeckel/php-exception/actions/workflows/php.yml/badge.svg)](https://github.com/dhaeckel/php-exception/actions/workflows/php.yml)
+[![Static Badge](https://img.shields.io/badge/PHPStan-level%20max-brightgreen)
+](phpstan.dist.neon)
+![Static Badge](https://img.shields.io/badge/PHPStan-strict_rules-brightgreen)
+![Packagist License](https://img.shields.io/packagist/l/haeckel/exception)
+
+
 # Haeckel/php-exception
 
 Haeckel/php-exception is a php library that provides utilities and extensions for exceptions.
