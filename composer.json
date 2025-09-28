@@ -5,7 +5,9 @@
     "require-dev": {
         "phpunit/phpunit": "^12.3",
         "phpstan/phpstan": "^2.1",
-        "squizlabs/php_codesniffer": "^4.0"
+        "squizlabs/php_codesniffer": "^4.0",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan-strict-rules": "^2.0"
     },
     "license": "LGPL-3.0-or-later",
     "autoload": {
@@ -43,11 +45,16 @@
         "ci": [
             "@cbf",
             "@cs",
-            "@phpstan -q",
-            "@testSilent"
+            "@phpstan --no-progress",
+            "@test"
         ]
     },
     "archive": {
         "exclude": ["/test/", "phpcs.xml.dist", "phpstan.dist.neon", "phpunit.xml", ".gitignore"]
+    },
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
     }
 }
