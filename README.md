@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/github/dhaeckel/php-exception/graph/badge.svg?token=3M3E6N9YDW)](https://codecov.io/github/dhaeckel/php-exception)
 # Haeckel/php-exception
 
 Haeckel/php-exception is a php library that provides utilities and extensions for exceptions.
