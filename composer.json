@@ -50,10 +50,16 @@
             "vendor/bin/phpcbf src/"
         ],
         "ci": [
+            "@cbf -q",
+            "@cs -q",
+            "@phpstan -q",
+            "@test --no-output"
+        ],
+        "local-ci": [
             "@cbf",
             "@cs",
             "@phpstan --no-progress",
-            "@test"
+            "@test --coverage-html .phpunit/html-coverage"
         ]
     },
     "archive": {
