@@ -27,7 +27,6 @@
 	<coverage pathCoverage="true">
 		<report>
 			<clover outputFile=".phpunit/cov.xml" />
-			<html outputDirectory=".phpunit/html-coverage" />
 		</report>
 	</coverage>
 	<logging>
