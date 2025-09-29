@@ -63,6 +63,14 @@
         ]
     },
     "archive": {
-        "exclude": ["/test/", "phpcs.xml.dist", "phpstan.dist.neon", "phpunit.xml", ".gitignore"]
+        "exclude": [
+            "/test/",
+            "phpcs.xml.dist",
+            "phpstan.dist.neon",
+            "phpunit.xml",
+            ".gitignore",
+            ".githooks",
+            ".github"
+        ]
     }
 }
